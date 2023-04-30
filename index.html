@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="container">
+        <h1 class="heading" id="heading">Temp Converter</h1>
+        <div id="temp">
+            <label class="C" id="C">Celsius</label>
+            <input type="number" name="Celsius" onchange="computeTemp(event)" class="C-input" id="C-input" placeholder="Enter temp">
+        </div>
+        <br>
+        <div id="temp">
+            <label class="F" id="F">Farenheit</label>
+            <input type="number" name="Farenheit" onchange="computeTemp(event)" class="F-input" id="F-input" placeholder="Enter temp">
+            
+        </div>
+        <br>
+        <div id="temp">
+            <label class="K" id="K">Kelvin</label>
+            <input type="number" name="Kelvin" onchange="computeTemp(event)" class="K-input" id="K-input" placeholder="Enter temp">
+        </div>
+        <!--<div class="popup" onclick="popupMsg()">Click me!
+            <span class="popuptext" id="myPopup">Popup text...</span>
+          </div>-->
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
